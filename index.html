@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.ico" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <img class="logo" src="assets/svg/logo.svg" alt="logo" />
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#skills">Skills</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#video">Video</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#price">Price</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="lang">
+          <span class="en-lang">en</span>
+          <span class="slash">&frasl;</span>
+          <span class="ru-lang">ru</span>
+        </p>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="hero">
+          <div class="quote">
+            <h1>Alexa Rise</h1>
+            <p class="quote__text">
+              Save sincere emotions, romantic feelings and happy moments of life
+              together with professional photographer Alexa Rise
+            </p>
+            <div class="quote__btn">
+              <button class="quote__link">Hire me</button>
+            </div>
+          </div>
+        </section>
+        <section id="skills" class="skills">
+          <h2 class="h2__title">Skills</h2>
+          <div class="skills__item">
+            <div class="skills__photo">
+              <div class="skills__svg">
+                <img
+                  class="skills__img"
+                  src="/assets/svg/camera.svg"
+                  alt="camera"
+                />
+              </div>
+              <h3 class="skills__title">Digital photography</h3>
+              <p class="skills__text">
+                High-quality photos in the studio and on the nature
+              </p>
+            </div>
+            <div class="skills__video">
+              <div class="skills__svg">
+                <img
+                  class="skills__img"
+                  src="/assets/svg/video.svg"
+                  alt="camera"
+                />
+              </div>
+              <h3 class="skills__title">Video shooting</h3>
+              <p class="skills__text">
+                Capture your moments so that they always stay with you
+              </p>
+            </div>
+            <div class="skills__retouch">
+              <div class="skills__svg">
+                <img
+                  class="skills__img"
+                  src="assets/svg/image.svg"
+                  alt="camera"
+                />
+              </div>
+              <h3 class="skills__title">Retouch</h3>
+              <p class="skills__text">
+                I strive to make photography surpass reality
+              </p>
+            </div>
+            <div class="skills__audio">
+              <div class="skills__svg">
+                <img
+                  class="skills__img"
+                  src="/assets/svg/mic.svg"
+                  alt="camera"
+                />
+              </div>
+              <h3 class="skills__title">Audio</h3>
+              <p class="skills__text">
+                Professional sounds recording for video, advertising, portfolio
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+          <h2 class="h2__title-portfolio">Portfolio</h2>
+          <div class="portfolio__btns">
+            <button class="portfolio__btn">Winter</button>
+            <button class="portfolio__btn">Spring</button>
+            <button class="portfolio__btn">Summer</button>
+            <button class="portfolio__btn">Autumn</button>
+          </div>
+          <div class="portfolio__cards">
+            <img
+              class="portfolio__img"
+              src="assets/img/portfolio-img.jpg"
+              alt="1"
+            />
+            <img
+              class="portfolio__img"
+              src="assets/img/portfolio-img-1.jpg"
+              alt="2"
+            />
+            <img
+              class="portfolio__img"
+              src="assets/img/portfolio-img-2.jpg"
+              alt="3"
+            />
+            <img
+              class="portfolio__img"
+              src="assets/img/portfolio-img-3.jpg"
+              alt="4"
+            />
+            <img
+              class="portfolio__img"
+              src="assets/img/portfolio-img-4.jpg"
+              alt="5"
+            />
+            <img
+              class="portfolio__img"
+              src="assets/img/portfolio-img-5.jpg"
+              alt="6"
+            />
+          </div>
+        </section>
+        <section id="video" class="video">
+          <h2 class="h2__title-video">Video</h2>
+          <div class="video_item">
+            <img
+              class="video__size"
+              src="assets/img/video-player.jpg"
+              alt="video"
+            />
+            <button class="video__btn">
+              <img class="video__icon" src="assets/svg/play.svg" alt="play" />
+            </button>
+          </div>
+        </section>
+        <section id="price" class="price">
+          <h2 class="h2__title-price">Price</h2>
+          <div class="price__items">
+            <div class="price__item">
+              <h3 class="price__title">Standard</h3>
+              <p class="price__sum">500 $</p>
+              <span class="price__text">One location</span>
+              <span class="price__text">120 photos in color</span>
+              <span class="price__text">12 photos in retouch</span>
+              <span class="price__text">Readiness2-3 weeks</span>
+              <span class="price__text">Make up, visage</span>
+              <button class="price__btn">Order shooting</button>
+            </div>
+            <div class="price__item">
+              <h3 class="price__title">Premium</h3>
+              <p class="price__sum">700 $</p>
+              <span class="price__text">One or two locations</span>
+              <span class="price__text">200 photos in color</span>
+              <span class="price__text">20 photos in retouch</span>
+              <span class="price__text">Readiness 1-2 weeks</span>
+              <span class="price__text">Make up, visage</span>
+              <button class="price__btn">Order shooting</button>
+            </div>
+            <div class="price__item">
+              <h3 class="price__title">Gold</h3>
+              <p class="price__sum">1000 $</p>
+              <span class="price__text">Three locations or more</span>
+              <span class="price__text">300 photos in color</span>
+              <span class="price__text">50 photos in retouch</span>
+              <span class="price__text">Readiness 1 week</span>
+              <span class="price__text">Make up, visage, hairstyle</span>
+              <button class="price__btn">Order shooting</button>
+            </div>
+          </div>
+        </section>
+        <section id="contacts" class="contacts">
+          <div class="contacts__block">
+            <h2 class="contacts__title">Contact me</h2>
+            <form class="form" action="">
+              <input
+                placeholder="E-mail"
+                class="contacts__email"
+                type="email"
+              />
+              <input placeholder="Phone" class="contacts__tel" type="tel" />
+              <textarea
+                placeholder="Message"
+                class="contacts__textarea"
+                name=""
+                id=""
+              ></textarea>
+            </form>
+            <button class="contacts__btn">Send message</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__item">
+            <span class="footer__copy"> &copy;</span>
+            <span class="footer__year">2022</span>
+            <span class="footer__github">
+              <a
+                class="footer__gitgub-link"
+                target="_blank"
+                href="https://github.com/TheD-rs"
+                >github</a
+              >
+            </span>
+          </div>
+          <div class="footer__item">
+            <span class="footer__rs">
+              <a
+                class="footer__rs-link"
+                href="https://rs.school/js-stage0/"
+                target="_blank"
+                >Rolling Scopes School</a
+              >
+            </span>
+          </div>
+          <div class="footer__item">
+            <div class="footer__social">
+              <a class="footer__inst" href="#">
+                <img
+                  class="footer__icon"
+                  src="assets/svg/inst.svg"
+                  alt="insta"
+                />
+              </a>
+              <a class="footer__fb" href="#">
+                <img class="footer__icon" src="assets/svg/fb.svg" alt="face" />
+              </a>
+              <a class="footer__tw" href="#">
+                <img class="footer__icon" src="assets/svg/tw.svg" alt="tw" />
+              </a>
+              <a class="footer__pin" href="#">
+                <img
+                  class="footer__icon"
+                  src="assets/svg/pinterest.svg"
+                  alt="pin"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js
+    "></script>
+  </body>
+</html>
